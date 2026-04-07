@@ -124,7 +124,7 @@ cd TOMM2024-UR
 ### 2. Install dependencies
 
 Please use **[reclip](https://github.com/allenai/reclip)** to set up the environment for **CLIP inference**.    
-Please use **[DTWREG](https://github.com/insomnia94/DTWREG)** to set up the environment for **DTWREG Enhancement**.
+Please use **[DTWREG](https://github.com/insomnia94/DTWREG)** to set up the environment for **DTWREG enhancement**.
 
 ---
 
@@ -154,23 +154,20 @@ $COCO_PATH
     ├── instances.json
     └── refs(google).p
 
-'''
+```
 
 ---
 
 ## Usage
 
-### Training
-
-```bash
-python scripts/train.py
-```
-
 ### Inference
 
+CLIP inference: Use the CLIP model to extract category and color labels for the annotated bounding boxes.
 ```bash
-python scripts/infer.py
+python prepro_clip.py
 ```
+
+DTWREG enhancement: Use the UR plugin to enhance the performance of DTWREG.
 
 ### Evaluation
 
