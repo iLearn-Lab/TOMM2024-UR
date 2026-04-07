@@ -13,7 +13,7 @@ PANPAN ZHANG<sup>1</sup>, MENG LIU<sup>2*</sup>, XUEMENG SONG<sup>3*</sup>, DA C
 <sup>5</sup> Qilu University of Technology, Jinan, China  
 <sup>6</sup> School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China  
 
-<sup>*</sup> MENG LIU, XUEMENG SONG
+<sup>*</sup> Corresponding author
 
 
 ## Links
