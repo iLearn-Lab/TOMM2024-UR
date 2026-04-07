@@ -81,7 +81,7 @@ Our framework is a plug-and-play relocalization module for weakly supervised ref
 </p>
 
 <p align="center">
-  <em>Figure 1. Overall framework of Universal Relocalizer.</em>
+  <em>Figure 1. Overall framework of UR.</em>
 </p>
 
 ### Main Components
@@ -121,17 +121,9 @@ git clone https://github.com/iLearn-Lab/TOMM2024-UR.git
 cd TOMM2024-UR
 ```
 
-### 2. Create environment
+### 2. Install dependencies
 
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Linux / Mac
-# .venv\Scripts\activate    # Windows
-```
-
-### 3. Install dependencies
-
-Please use **[reclip](https://github.com/allenai/reclip)** to set up the environment for **CLIP inference**.
+Please use **[reclip](https://github.com/allenai/reclip)** to set up the environment for **CLIP inference**.    
 Please use **[DTWREG](https://github.com/insomnia94/DTWREG)** to set up the environment for **DTWREG Enhancement**.
 
 ---
