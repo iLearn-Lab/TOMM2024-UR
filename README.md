@@ -160,6 +160,16 @@ $COCO_PATH
 
 ## Usage
 
+### Generate the Triads for DTWREG
+```bash
+python ./tools/prepro_rel.py --dataset refcoco --splitBy unc
+```
+
+### Training
+```bash
+python ./tools/train.py --dataset refcoco --splitBy unc --exp_id 1
+```
+
 ### Inference
 
 CLIP inference: Use the CLIP model to extract category and color labels for the annotated bounding boxes.
@@ -170,12 +180,12 @@ python prepro_clip.py
 DTWREG enhancement: Use the UR plugin to enhance the performance of DTWREG.
 
 ```bash
-python scripts/eval.py
+python ./eval.py --dataset refcoco --splitBy unc --split val --id 1
 ```
 
 ---
 
-## Demo / Visualization
+## Visualization
 
 如果你们有演示页面、视频或截图，可以写在这里。
 
