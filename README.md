@@ -18,11 +18,8 @@ PANPAN ZHANG<sup>1</sup>, MENG LIU<sup>2*</sup>, XUEMENG SONG<sup>3*</sup>, DA C
 
 ## Links
 
-- **Paper**: [`Paper Link`](<[paper-link](https://dl.acm.org/doi/10.1145/3656045)>)
-- **Project Page**: [`Project Page`](<project-page-link>)
-- **Hugging Face Model**: [`Model`](<huggingface-model-link>)
-- **Hugging Face Dataset**: [`Dataset`](<huggingface-dataset-link>)
-- **Demo / Video**: [`Demo`](<demo-link>)
+- **Paper**: [`Paper Link`](https://dl.acm.org/doi/10.1145/3656045)
+- **Datset**: [`Dataset`](https://github.com/insomnia94/MAttNet)
 - **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/<repo-name>)
 
 
@@ -53,7 +50,6 @@ PANPAN ZHANG<sup>1</sup>, MENG LIU<sup>2*</sup>, XUEMENG SONG<sup>3*</sup>, DA C
 
 
 
-
 ---
 
 ## Introduction
@@ -66,30 +62,29 @@ We present **Universal Relocalizer**, a plug-and-play framework for **weakly sup
 
 ## Highlights
 
-- 支持 `<task / domain>`
-- 提供 `<training / inference / evaluation>` 脚本
-- 提供 `<checkpoint / dataset / benchmark / demo>`
-- 适合用于 `<论文复现 / 项目展示 / 后续研究>`
+- 支持 `<referring expression grounding>`
+- 提供 `<evaluation>` 脚本
+- 提供 `<dataset>`
+- 适合用于 `<论文复现 / 后续研究>`
 
 ---
 
 ## Framework
 
-你可以在这里放方法框架图、模型结构图或整体 pipeline 图。
-
 ### Framework Figure
 
-```markdown
-![Framework](./assets/framework.png)
-```
+The overall architecture of **Universal Relocalizer** is illustrated below.  
+Our framework is a plug-and-play relocalization module for weakly supervised referring expression grounding, which enhances existing two-stage methods by refining proposal scores with category, color, and spatial relationship information.
 
-实际使用时，把上面这行替换成：
+<p align="center">
+  <img src="./src/assets/pipline_UR.png" alt="Framework" width="85%">
+</p>
 
-```markdown
-![Framework](./d.png)
-```
+### Main Components
 
-然后在下面补一句说明：
+- **Category Module**
+- **Color Module**
+- **Spatial Relationship Module**
 
 **Figure 1.** Overall framework of `<UR>`.
 
@@ -118,8 +113,8 @@ We present **Universal Relocalizer**, a plug-and-play framework for **weakly sup
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/iLearn-Lab/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/iLearn-Lab/TOMM2024-UR.git
+cd TOMM2024-UR
 ```
 
 ### 2. Create environment
