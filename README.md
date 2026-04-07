@@ -1,4 +1,4 @@
-<img width="651" height="335" alt="image" src="https://github.com/user-attachments/assets/686b3dea-1635-4d37-b68a-78dd7d1f6219" /># Universal Relocalizer for Weakly Supervised Referring Expression Grounding
+# Universal Relocalizer for Weakly Supervised Referring Expression Grounding
 
 > A plug-and-play relocalization framework for weakly supervised referring expression grounding that improves object localization by refining proposal scores with category, color, and spatial cues.
 
