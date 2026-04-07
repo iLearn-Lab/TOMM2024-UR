@@ -1,0 +1,17 @@
+'northwest', 'leftiest', 'left', 'west', 'western', 'leftmost', 'leftest', 'lefty', 'topleft',
+                      'onleft', 'bottomleft', 'leftside']  # 左、西、 refcoco
+'eastern', 'right', 'middleright', 'topright', 'rightside', 'righty', 'southeast',
+                       'east', 'rightiest', 'bottomright', 'rightmost', 'rightest', 'onright'] # 右、东、
+'high', 'higher', 'northwest', 'ontop', 'tallest', 'tops', 'tall', 'backward',
+                    'topmost', 'taller', 'above', 'topped', 'atop', 'topping', 'backround',
+                    'back', 'topright', 'north', 'behind', 'top', 'topleft', 'highest','upper','up',
+                    'uppermost'
+'bottom', 'underside', 'frontmost', 'bottoms', 'shortest', 'lower', 'bottomright',
+                       'front', 'southeast', 'forefront', 'shorter', 'bottomleft', 'under', 'frontest',
+                       'below', 'low', 'lowered', 'down', 'bottommost', 'short', 'lowest', 'south',
+                       'infront', 'underneath', 'beneath']
+'largest', 'forefront', 'closer', 'biggest', 'bigger', 'nearest', 'front', 'large',
+                     'closest', 'infront', 'larger', 'big', 'near', 'tall', 'long', 'huge','frontest',
+                     'frontmost'
+'furtherest', 'further', 'small', 'farther', 'farthest', 'furthest', 'tiny', 'smallest',
+                       'fartherest', 'smaller', 'far', 'tinier', 'tiniest', 'little', 'short','farest']
