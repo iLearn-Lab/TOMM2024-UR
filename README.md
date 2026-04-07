@@ -187,8 +187,6 @@ best viewed in colors.
 
 ### Example Results
 
-你可以插入结果图：
-
 Performance Comparison on RefCOCO, RefCOCO+, and RefCOCOg:
 
 | Method | RefCOCO val | RefCOCO testA | RefCOCO testB | RefCOCO+ val | RefCOCO+ testA | RefCOCO+ testB | RefCOCOg val |
@@ -210,14 +208,7 @@ Performance Comparison on RefCOCO, RefCOCO+, and RefCOCOg:
 
 ---
 
-## TODO
 
-- [ ] 完善文档
-- [ ] 补充训练脚本说明
-- [ ] 补充推理脚本说明
-- [ ] 上传模型权重
-- [ ] 上传结果图
-- [ ] 发布 demo / project page
 
 ---
 
