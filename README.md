@@ -127,7 +127,7 @@ $COCO_PATH
 
 ## Usage
 ### Extract nouns
-Extract nouns by referring to extract_all_nouns。py
+Extract nouns by referring to extract_all_nouns.py
 
 ### Generate the Triads for DTWREG
 
