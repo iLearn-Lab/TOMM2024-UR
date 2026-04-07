@@ -4,15 +4,17 @@
 
 ## Authors
 
-PANPAN ZHANG¹, MENG LIU¹, XUEMENG SONG², DA CAO³, ZAN GAO⁴, LIQIANG NIE⁵
+PANPAN ZHANG<sup>1</sup>, MENG LIU<sup>2*</sup>, XUEMENG SONG<sup>3*</sup>, DA CAO<sup>4</sup>, ZAN GAO<sup>5</sup>, LIQIANG NIE<sup>6</sup>
 
-¹ Shandong University, Qingdao, China  
-² School of Computer Science and Technology, Shandong University, Qingdao, China  
-³ College of Computer Science and Electronic Engineering, Hunan University, Changsha, China  
-⁴ Qilu University of Technology, Jinan, China  
-⁵ School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China  
+<sup>1</sup> Shandong University, Qingdao, China  
+<sup>2</sup> Shandong Jianzhu University, Jinan, China 
+<sup>3</sup> Southern University of Science and Technology, Shenzhen, China
+<sup>4</sup> Hunan University, Changsha, China  
+<sup>5</sup> Qilu University of Technology, Jinan, China  
+<sup>6</sup> School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China  
 
-*Corresponding authors: Meng Liu, Xuemeng Song*
+<sup>*</sup> MENG LIU, XUEMENG SONG
+
 
 ## Links
 
