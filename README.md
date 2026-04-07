@@ -130,9 +130,7 @@ Please use **[DTWREG](https://github.com/insomnia94/DTWREG)** to set up the envi
 
 
 
-## Dataset / Benchmark
-
-如果你们还提供数据集，可以写：
+## Dataset
 
 - **Dataset**: [`Dataset Link`](<https://github.com/lichengunc/MAttNet>)
 
@@ -156,7 +154,7 @@ $COCO_PATH
     ├── instances.json
     └── refs(google).p
 
-> 如果数据集不能直接公开，请在这里说明申请方式或访问限制。
+'''
 
 ---
 
