@@ -46,7 +46,7 @@ We present **Universal Relocalizer**, a plug-and-play framework for **weakly sup
 ## Highlights
 
 - 支持 `<referring expression grounding>`
-- 提供 `<evaluation>` 脚本
+- 提供 `<training / inference>` 脚本
 - 提供 `<dataset>`
 - 适合用于 `<论文复现 / 后续研究>`
 
