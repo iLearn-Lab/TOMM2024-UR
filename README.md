@@ -1,4 +1,4 @@
-# Universal Relocalizer for Weakly Supervised Referring Expression Grounding
+<img width="651" height="335" alt="image" src="https://github.com/user-attachments/assets/686b3dea-1635-4d37-b68a-78dd7d1f6219" /># Universal Relocalizer for Weakly Supervised Referring Expression Grounding
 
 > A plug-and-play relocalization framework for weakly supervised referring expression grounding that improves object localization by refining proposal scores with category, color, and spatial cues.
 
@@ -25,7 +25,6 @@ PANPAN ZHANG<sup>1</sup>, MENG LIU<sup>2*</sup>, XUEMENG SONG<sup>3*</sup>, DA C
 - **Demo / Video**: [`Demo`](<demo-link>)
 - **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/<repo-name>)
 
-> 如果某些链接暂时没有，可以先删掉对应条目，后续再补充。
 
 ---
 
@@ -50,40 +49,18 @@ PANPAN ZHANG<sup>1</sup>, MENG LIU<sup>2*</sup>, XUEMENG SONG<sup>3*</sup>, DA C
 
 ## Updates
 
-- [MM/YYYY] Initial release
-- [MM/YYYY] Release paper / arXiv version
-- [MM/YYYY] Release code
-- [MM/YYYY] Release checkpoints on Hugging Face
-- [MM/YYYY] Release dataset / benchmark / demo
+- [04/2026] Initial release
 
-> 如果项目刚建立，可以先只保留一条：
->
-> - [MM/YYYY] Initial release
+
+
 
 ---
 
 ## Introduction
 
-本项目是论文 **`<Paper Title>`** 的官方实现 / 复现实现 / 项目主页。
 
-请在这里简要说明：
 
-- 论文要解决什么问题
-- 方法的核心思想是什么
-- 与现有方法相比有什么特点
-- 本仓库提供了哪些内容，例如：
-  - 训练代码
-  - 推理代码
-  - 模型权重
-  - 数据处理脚本
-  - 评测脚本
-  - Demo
-
-### Example Description
-
-We present **`<Method Name>`**, a framework for **`<task name>`**.  
-Our method addresses **`<problem>`** by introducing **`<core idea>`**.  
-This repository provides the official implementation, pretrained checkpoints, and evaluation scripts.
+We present **Universal Relocalizer**, a plug-and-play framework for **weakly supervised referring expression grounding**. It improves existing two-stage methods by refining proposal scores with category, color, and spatial relationship cues, leading to more accurate object localization without requiring region-level annotations. This repository provides the official implementation, along with training and evaluation code on standard benchmarks.
 
 ---
 
@@ -96,7 +73,7 @@ This repository provides the official implementation, pretrained checkpoints, an
 
 ---
 
-## Method / Framework
+## Framework
 
 你可以在这里放方法框架图、模型结构图或整体 pipeline 图。
 
@@ -109,12 +86,12 @@ This repository provides the official implementation, pretrained checkpoints, an
 实际使用时，把上面这行替换成：
 
 ```markdown
-![Framework](./assets/framework.png)
+![Framework](./d.png)
 ```
 
 然后在下面补一句说明：
 
-**Figure 1.** Overall framework of `<Method Name>`.
+**Figure 1.** Overall framework of `<UR>`.
 
 ---
 
@@ -266,25 +243,16 @@ python scripts/eval.py
 
 ## Citation
 
-如果你的项目对应论文，请提供 BibTeX：
-
 ```bibtex
-@article{yourpaper2025,
-  title={Your Paper Title},
-  author={Author A and Author B and Author C},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2025}
-}
-```
-
-如果还没有正式论文，也可以临时写成：
-
-```bibtex
-@misc{yourproject2025,
-  title={Your Project Title},
-  author={Your Name},
-  year={2025},
-  howpublished={GitHub repository}
+@article{zhang2024universal,
+  title={Universal relocalizer for weakly supervised referring expression grounding},
+  author={Zhang, Panpan and Liu, Meng and Song, Xuemeng and Cao, Da and Gao, Zan and Nie, Liqiang},
+  journal={ACM Transactions on Multimedia Computing, Communications and Applications},
+  volume={20},
+  number={7},
+  pages={1--23},
+  year={2024},
+  publisher={ACM New York, NY}
 }
 ```
 
@@ -292,17 +260,9 @@ python scripts/eval.py
 
 ## Acknowledgement
 
-可以在这里感谢：
 
-- 指导老师
-- 合作者
-- 使用到的开源项目
-- 数据集或 benchmark 提供方
-
-示例：
-
-- Thanks to our supervisor and collaborators for valuable support.
-- Thanks to the open-source community for providing useful baselines and tools.
+- This project benefits from the open-source implementation of [DTWREG](https://github.com/insomnia94/DTWREG).  
+We sincerely thank the authors for making their code publicly available.
 
 ---
 
