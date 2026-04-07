@@ -20,7 +20,7 @@ PANPAN ZHANG<sup>1</sup>, MENG LIU<sup>2*</sup>, XUEMENG SONG<sup>3*</sup>, DA C
 
 - **Paper**: [`Paper Link`](https://dl.acm.org/doi/10.1145/3656045)
 - **Datset**: [`Dataset`](https://github.com/insomnia94/MAttNet)
-- **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/<repo-name>)
+- **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/<TOMM2024-UR>)
 
 
 ---
