@@ -11,7 +11,7 @@ PANPAN ZHANG<sup>1</sup>, MENG LIU<sup>2*</sup>, XUEMENG SONG<sup>3*</sup>, DA C
 <sup>3</sup> Southern University of Science and Technology, Shenzhen, China    
 <sup>4</sup> Hunan University, Changsha, China  
 <sup>5</sup> Qilu University of Technology, Jinan, China  
-<sup>6</sup> School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China  
+<sup>6</sup> Harbin Institute of Technology (Shenzhen), Shenzhen, China  
 
 <sup>*</sup> Corresponding author
 
@@ -127,33 +127,12 @@ source .venv/bin/activate   # Linux / Mac
 
 ### 3. Install dependencies
 
-```bash
-pip install -r requirements.txt
-```
-
-> 如果你使用的是 conda、poetry、uv 或 docker，请改成自己的实际安装方式。
+Please use **[reclip](https://github.com/allenai/reclip)** to set up the environment for **CLIP inference**.
+Please use **[DTWREG](https://github.com/insomnia94/DTWREG)** to set up the environment for **DTWREG Enhancement**.
 
 ---
 
-## Checkpoints / Models
 
-如果你们发布了模型权重，可以写：
-
-- **Main checkpoint**: [`Model Link`](<huggingface-model-link>)
-- **Additional checkpoint**: [`Other Checkpoint`](<other-checkpoint-link>)
-
-下载后请放入如下目录：
-
-```text
-checkpoints/
-```
-
-如果需要修改配置路径，也可以说明：
-
-- 修改 `config.yaml` 中的 checkpoint 路径
-- 或在运行脚本时通过参数传入
-
----
 
 ## Dataset / Benchmark
 
